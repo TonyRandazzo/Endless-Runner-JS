@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 20px;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 0 auto;
+        }
+      </style>
+    <section id="overlay">
+        <div id="card">
+          <p>You Scored: <span id="card-score">0</span></p>
+          <button onclick="restartGame(this)">Play Again?</button>
+        </div>
+      </section>
+      <h1>Kitten Run</h1>
+      <canvas width="400" height="400" id="canvas"></canvas>
+      <script src="script.js"></script>
+</body>
+</html>
